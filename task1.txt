@@ -27,3 +27,49 @@ Task:Write a blog on the difference between document and window objects.
 9. example:                                             9. example:
  document.title: will return the title of the                  window.innerheight: will return the height of 
   document                                                   the content area of the browser.
+
+
+-----------------------------------WINDOW OBJECT: ------------------------------------------------------------------------------------------
+1.PROPERTIES
+Closed: It holds a Boolean value that represents whether the window is closed or not.
+Document: It returns a reference to the document object of that window.
+Console : It returns a reference to the console object which provides access to the browser’s debugging console.
+DefaultStatus :It is used to define the default message that will be displayed in the status bar when no activity is carried on by the browser.
+Controllers : It returns the XUL controller objects for the current Chrome window.
+Frames[] : It represents an array that contains all the frames of a given window.
+innerHeight :It is used to get the height of the content area of the browser window.
+innerWidth : It is used to get the width of the content area of the browser window.
+Toolbar: It will result the toolbar object, whose visibility can be toggled in the window.
+
+2.METHODS
+moveTo() : Moves a window to the specified position
+open() :Opens a new browser window
+print() :Prints the content of the current window
+prompt() : Displays a dialog box that prompts the visitor for input
+SYNTAX
+Window.property_name
+example:
+
+window.innerHeight : will return the height of the content area of the browser
+
+-----------------------------------------Document Object   ------------------------------------------------------------------------------------------
+PROPERTIES
+title : returns the name of the HTML document defined between the starting and ending tags of the TITLE element.
+URL : returns the full URL of the HTML document.
+referrer : returns the URL of all the documents referred to in an HTML document.
+readyState : returns the loading status of the document.
+documentMode :returns the mode used by the browser to process the document.
+lastModified :returns the date on which the document was last modified.
+domain: returns the domain name of the server from which the document has originated.
+Cookie : returns a report that contains all the visible and unexpired cookies associated with the document.
+
+METHODS
+createDocumentFragment() : Creates an empty DocumentFragment node.
+createElement() : Creates an Element node.
+createEvent() : Creates a new event.
+createTextNode() : Creates a Text node.
+SYNTAX
+document.property_name;
+example:
+
+     document.title :  will return the title of the document
